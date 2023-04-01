@@ -1,0 +1,65 @@
+    .gradient {
+        background: #000000;
+        background: linear-gradient(to top, #ca0808, #420000);
+        border-radius: 10px;
+        padding: 20px
+    }
+    
+    body {
+        background-color: #000000;
+        font-family: monospace;
+    }
+    
+    .navbar {
+        font-size: large;
+    }
+    
+    .navhref {
+        background-color: rgb(39, 39, 39);
+        border-radius: 10px;
+        padding: 10px;
+        color: crimson;
+        text-decoration: unset;
+    }
+    
+    .navhref:hover {
+        background-color: rgb(0, 0, 0);
+        border-radius: 15px;
+        padding: 15px;
+        color: rgb(255, 81, 116);
+        text-decoration: underline;
+    }
+    
+    p {
+        color: whitesmoke;
+        font-size: larger;
+    }
+    
+    .padding {
+        background-color: rgb(39, 39, 39);
+        padding: 3px;
+        border-radius: 5px
+    }
+    
+    .screen1 {
+        border-radius: 10px;
+    }
+    
+    h1 {
+        color: gray
+    }
+    
+    .itchlink {
+        font-size: larger;
+        border-radius: 10px;
+        border-color: #db3434;
+        color: #ffffff;
+        box-shadow: 0 0 40px 40px #f70000 inset, 0 0 0 0 #fb6161;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+    }
+    
+    .itchlink:hover {
+        background-color: #000000;
+        box-shadow: 0 0 10px 0 #832626 inset, 0 0 10px 4px #6b6464;
+    }
